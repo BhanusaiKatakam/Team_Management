@@ -1,0 +1,53 @@
+@import "../../Global.css";
+
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0% 5%;
+}
+.loginLogoContainer {
+  display: grid;
+  place-content: center;
+}
+.headerContainer {
+  text-align: center;
+}
+.header {
+  font-size: var(--font-size-large);
+  color: var(--font-color-primary);
+}
+.subHeader {
+  font-size: var(--font-size-small);
+  color: var(--font-color-secondary);
+}
+.fieldContainer {
+  display: grid;
+  gap: 32px;
+  margin: 20px 0px;
+}
+.inputContainer {
+  display: grid;
+  gap: 5px;
+}
+.inputContainer label {
+  font-size: var(--font-size-small);
+  color: var(--font-color-primary);
+}
+.inputContainer input {
+  padding: 10px;
+  border-radius: var(--border-radius-primary);
+  border: var(--border-primary);
+}
+.fieldContainer button {
+  padding: 10px;
+  background-color: var(--background-color-primary);
+  border-radius: var(--border-radius-primary);
+  color: var(--font-color-terinary);
+  border: var(--border-primary);
+  transition: all 0.3ms ease-in-out;
+}
+.fieldContainer button:active {
+  transform: scale(0.99);
+}
