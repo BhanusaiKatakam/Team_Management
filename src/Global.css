@@ -1,0 +1,22 @@
+:root {
+  /*font sizes*/
+  --font-size-x-small: 12px;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+
+  /*font colors*/
+  --font-color-primary: #10182b;
+  --font-color-secondary: #667085;
+  --font-color-terinary: #ffffff;
+
+  /*font weight*/
+
+  /*border*/
+  --border-primary:1px solid #DADADA;
+  --border-radius-primary:8px;
+
+  /*container colors*/
+  --background-color-primary:#4A1FB8;
+  
+}
